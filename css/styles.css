@@ -1,0 +1,133 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,700|Satisfy';
+
+/* NAV AND LOGO */
+
+.flexy {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav li a:hover {
+  color: #FF827B;
+}
+
+#logo-img {
+  height: 95px;
+}
+
+.lobster-text {
+  font-family: "Satisfy", cursive;
+  color: #ff827b;
+}
+
+.inline {
+  display: inline;
+}
+
+#logo-text {
+  font-size: 3.5em;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.top-nav {
+  display: block;
+}
+
+.top-nav a {
+  color: #7CB6DF;
+  font-size: 20px;
+}
+
+/* END NAV AND LOGO */
+
+/* HERO IMAGE */
+
+#hero-background {
+  height: 450px;
+  background-image: url("../img/hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.sans-text {
+  font-family: "Open Sans", sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#action-call {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 6%;
+}
+
+/* END HERO IMAGE */
+
+/* FEATURED PRODUCTS */
+
+.thumbnail {
+  background: #edf1f4;
+}
+
+.product-image {
+  padding: 5%;
+}
+
+.purchase-button {
+  background: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.purchase-button:hover {
+  background: #31b0d5;
+  border-color: #31b0d5;
+}
+
+/* END FEATURED PRODUCTS */
+
+/* SERVICES */
+
+.services-links {
+  color: #5bc0de;
+}
+
+/* END SERVICES */
+
+/* FOOTER BEGINS */
+
+footer {
+  background-color: #231F20;
+  height: 135px;
+}
+
+#footer-padding {
+  padding-top: 20px;
+}
+
+.footer-border {
+  border-right: 1px solid #313131;
+}
+
+#footer-logo {
+  height: 70px;
+  margin-top: -8px;
+}
+
+#contact-text, #contact-text a {
+  color: #A0A0A1;
+}
+
+address {
+  margin-left: 6%;
+}
+
+i {
+  margin-right: 5px;
+}
+
+/* FOOTER ENDS */
